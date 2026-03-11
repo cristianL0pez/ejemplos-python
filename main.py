@@ -17,6 +17,7 @@ str #esto es un texto
 int #esto es un entero
 float #esto es un flotante 
 bool #esto es verdadero  o falso
+list
 
 #INPUT
 #input()
@@ -133,14 +134,14 @@ for i in personas:
     print(i)
  """
  
-alumnos = [] #lista vacia
+""" alumnos = [] #lista vacia
 
 while True:
     print("----------menu")
     print("opcion 1 agregar")
     print("opcion 2 borrar")
-    print("opcion 3")
-    print("opcion 4")
+    print("opcion 3 actualizar")
+    print("opcion 4 salir")
     opcion = input("ingresa la opcion :")
 
 
@@ -152,10 +153,41 @@ while True:
         nombre = input("ingresa el nombre alumno")
         alumnos.remove(nombre)
         print(alumnos)
+    elif opcion == 3:
+        print("buscar alumno")
     else:
-        break
+        break  """
 
-    
+alumnos = ["carlos", "manuel"]
+
+
+
+
+
+for i in range(0):
+    print(i)
+
+
+
+#rango si le paso 4 me genera = 0,1,2,3
+#10  = 0,1,2,3,4,5,6,7,8,9
+
+
+numeros = [1,2,3,4,5,6,7,8,9,10,1,2,4,5,6,7,8,9,8,7,6,5,4,3,2,1]
+ordenados = sorted(numeros , reverse=True)
+print(ordenados)
+
+
+#slices donde corto
+texto = "palabra"
+palindromo = "palabra"
+if palindromo == texto[::-1]:
+    print("esto es un palindromo!!!!")
+
+print(texto[::-1]) 
+
+
+print(texto.count("a"))
     
     
     
