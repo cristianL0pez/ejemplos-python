@@ -96,9 +96,9 @@ lista = [1,2,3,4,5,6]  ## corchetes son importantes
 ## 
 diccionario = {"key":"value"}
 ##sets
-sets={}
+sets={1,2,3,4,5}
 ##tuplas
-tuplas = ()
+tuplas = (1,2,3,4,5,6)
 
 
 
